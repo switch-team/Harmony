@@ -8,6 +8,10 @@
 	color: #E4FDE1;
 	
 }
+.dropdown-menu a {
+	color: #000;
+	
+}
 .navbar a:hover {
 	color: #7F7B82;
 	
@@ -215,3 +219,64 @@
     color: #c59b08;
 }
 /*end of star rating css*/
+
+/*timeline*/
+ main {
+	 min-width: 300px;
+	 max-width: 900px;
+	 margin: auto;
+	counter-reset: section 2015; 
+	padding: 0 4em;
+}
+ main p {
+	 font-size: 1em;
+	 line-height: 1.75em;
+	 border-top: 3px solid;
+	 border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+	 border-image-slice: 1;
+	 border-width: 3px;
+	 margin: 0;
+	 padding: 40px;
+	 counter-increment: section;
+	 position: relative;
+	 color: #34435e;
+}
+ main p:before {
+	 content: counter(section);
+	 position: absolute;
+	 border-radius: 20%;
+	 padding: 20px;
+	 height: 1.25em;
+	 width: 5em;
+	 background-color: #34435e;
+	 text-align: center;
+	 line-height: 0em;
+	 color: #fff;
+	 font-size: 1em;
+}
+ main p:nth-child(odd) {
+	 border-right: 3px solid;
+	 padding-left: 0;
+}
+ main p:nth-child(odd):before {
+	 left: 100%;
+	 margin-left: -20px;
+}
+ main p:nth-child(even) {
+	 border-left: 3px solid;
+	 padding-right: 0;
+}
+ main p:nth-child(even):before {
+	 right: 100%;
+	 margin-right: -20px;
+}
+ main p:first-child {
+	 border-top: 0;
+	 border-top-right-radius: 0;
+	 border-top-left-radius: 0;
+}
+ main p:last-child {
+	 border-bottom-right-radius: 0;
+	 border-bottom-left-radius: 0;
+}
+ /*end of timeline*/

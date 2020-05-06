@@ -68,44 +68,42 @@
             <span class="navbar-toggler-icon"></span>
          </button>
 
-         <a class="navbar-brand" href="index.html">SWITCH</a>
-
          <div class="collapse navbar-collapse" id="Navbar">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
-               <li class="nav-item"> <a class="nav-link" href="aboutus.html">About</a> </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                     aria-haspopup="true" aria-expanded="false">
-                     Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Action</a>
-                     <a class="dropdown-item" href="#">Another action</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-               </li>
-               <li class="nav-item"> <a class="nav-link" href="contactus.html">Contact</a> </li>
-            </ul>
+            
             <form class="form-inline my-2 my-lg-0">
                <a class="btn btn-outline-secondary  mr-2 my-2 my-sm-0" style="color: floralwhite" data-toggle="modal"
                   data-target="">Sign Up</a>
                <a class="btn btn-outline-secondary my-2 my-sm-0" style="color: floralwhite" data-toggle="modal"
                   data-target="#loginModal">Sign in</a>
             </form>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"> <a class="nav-link" href="aboutus.html">حول</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="contactus.html">للتواصل</a> </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                     الأقسام
+                  </a>
+                  <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="painting.html">الرسم</a>
+                     <a class="dropdown-item" href="sculpture.html">النحت</a>
+                     <a class="dropdown-item" href="library.html">المكتبة</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item disabled" href="#">...قريباً</a>
+                  </div>
+               </li>
+               <li class="nav-item active"> <a class="nav-link" href="index.html">الصفحة الرئيسية </a> </li>
+            </ul>
          </div>
+         <a class="navbar-brand" href="index.html">SWITCH</a>
       </div>
    </nav>
 
    <!-- Jumbotron -->
-      <header class="jumbotron jumbotron-fluid text-center">
-         <h1 class="display-4">Welcome To SWITCH</h1>
-         <p class="lead">We code your ideas and compile your dreams.</p>
-         <hr class="my-4">
-         <p>Do you want to start a new project? Build a website or develop an app? You came to the right place. </p>
-         <p class="lead"> <a class="btn btn-dark btn-lg" href="#" role="button">SWITCH ON</a></p>
-      </header>
+   <header class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-4 mt-4"><strong>Welcome To <em>Harmony</em></strong></h1>
+      <p class="lead mt-3">المبادرة الشبابية لخلق مساحة حرة للافراد لإبراز المواهب في الفن والثقافة</p>
+   </header>
    <!-- End Jumbotron -->
 
    <div class="container">
@@ -201,7 +199,7 @@
    </div>
    <br>
    <div id="my-carousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner" role="listbox" id="sections">
          <div class="carousel-item active">
             <img class=" img-responsive" src="img/designer-monitor-screen-concept-965345.jpg" alt="">
             <div class="carousel-caption">
@@ -239,16 +237,16 @@
    <footer class="footer">
       <div class="container">
          <div class="row">             
-            <div class=" col-md-3 align-self-center">
+            <div class=" col-md-4 align-self-center">
                <h5><strong><ins>Links</ins></strong></h5>
                <ul class="list-unstyled">
                   <li class="d-inline-block mr-2"><a class="text-dark" href="index.html"><strong>Home</strong></a></li>
-                  <li class="d-inline-block mr-2"><a class="text-dark" href="aboutus.html"><strong>About</strong></a></li>
-                  <li class="d-inline-block mr-2"><a class="text-dark" href="#"><strong>Menu</strong></a></li>
-                  <li class="d-inline-block"><a class="text-dark" href="contactus.html"><strong>Contact</strong></a></li>
+                  <li class="d-inline-block mr-2"><a class="text-dark" href="#"><strong>Sections</strong></a></li>
+                  <li class="d-inline-block mr-2"><a class="text-dark" href="contactus.html"><strong>Contact</strong></a></li>
+                  <li class="d-inline-block"><a class="text-dark" href="aboutus.html"><strong>About</strong></a></li>
                </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                <div class="text-center">
                   <h4 class="display-4"><em>Harmony</em></h4>
                   <p class="text-muted">Copyright &copy; 2020 &middot; All Rights Reserved for SWITCH Developing Team</p>
