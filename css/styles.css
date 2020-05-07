@@ -280,3 +280,28 @@
 	 border-bottom-left-radius: 0;
 }
  /*end of timeline*/
+
+
+ /*Card Images*/
+ .family{
+	float: left;
+ }
+ .family img {
+	 height: 150px;
+	 width: 150px;
+ }
+ .family a {
+	align-self: center;
+ }
+ #Family-Container {
+	 height: 250px;
+	 overflow-y: hidden;
+ }
+/*End Card Images*/
+
+ #button-group {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  }
