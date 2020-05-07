@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .navbar	{
-	background-color: #6B2737;
+	background-color: #AF9AB2;
 }
 
 .navbar a {
@@ -30,158 +30,26 @@
 	color: floralwhite;
 	  
 }
- #foo .tab-style {
-	 font-size: 20px;
-	 width: 50%;
-	 background-color: #f2f2f2;
-	 text-align: center;
-}
- #foo .nav-tabs > li > a {
-	 margin-right: 0px;
-	 color: grey;
-}
- #foo .group2 {
-	 position: relative;
-	 margin-top: 16px;
-}
- #foo .btn-block {
-	 margin-top: 20px;
-	 margin-bottom: 20px;
-	 font-size: 18px;
-}
- #foo .nav-tabs > li.active > a, #foo .nav-tabs > li.active > a:focus, #foo .nav-tabs > li.active > a:hover {
-	 background-color: #e5ecf4;
-	 color: #4a89dc;
-}
- #foo .login-shadow {
-	 -webkit-box-shadow: 5px -5px 6px 0px rgba(82, 82, 82, 0.52);
-	 -moz-box-shadow: 5px -5px 6px 0px rgba(82, 82, 82, 0.52);
-	 box-shadow: 5px -5px 6px 0px rgba(82, 82, 82, 0.52);
-	 z-index: 1;
-}
- #foo .signup-shadow {
-	 -webkit-box-shadow: -5px 0px 6px 0px rgba(82, 82, 82, 0.52);
-	 -moz-box-shadow: -5px -5px 6px 0px rgba(82, 82, 82, 0.52);
-	 box-shadow: -5px 0px 6px 0px rgba(82, 82, 82, 0.52);
-}
- #foo .modal-header {
-	 background-color: #e5ecf4;
-}
- #foo .group {
-	 position: relative;
-	 margin-top: 30px;
-}
- #foo .input {
-	 font-size: 18px;
-	 padding: 10px 10px 10px 5px;
-	 -webkit-appearance: none;
-	 display: block;
-	 background: none;
-	 color: #636363;
-	 width: 100%;
-	 border: none;
-	 border-radius: 0;
-	 border-bottom: 1px solid #757575;
-}
- #foo .input:focus {
-	 outline: none;
-}
- #foo .label {
-	 color: #757575;
-	 font-size: 18px;
-	 font-weight: normal;
-	 position: absolute;
-	 pointer-events: none;
-	 left: -10px;
-	 top: 10px;
-	 transition: all 0.2s ease;
-}
- #foo .input:focus ~ .label, #foo .input.used ~ .label {
-	 top: -20px;
-	 transform: scale(0.75);
-	 left: -15px;
-	 color: #4a89dc;
-	/* font-size: 14px;
-	 */
-}
- #foo .bar {
-	 position: relative;
-	 display: block;
-	 width: 100%;
-}
- #foo .bar:before, #foo .bar:after {
-	 content: '';
-	 height: 2px;
-	 width: 0;
-	 bottom: 1px;
-	 position: absolute;
-	 background: #4a89dc;
-	 transition: all 0.2s ease;
-}
- #foo .bar:before {
-	 left: 50%;
-}
- #foo .bar:after {
-	 right: 50%;
-}
- #foo .input:focus ~ .bar:before, #foo .input:focus ~ .bar:after {
-	 width: 50%;
-}
- #foo .highlight {
-	 position: absolute;
-	 height: 60%;
-	 width: 100px;
-	 top: 25%;
-	 left: 0;
-	 pointer-events: none;
-	 opacity: 0.5;
-}
- #foo .input:focus ~ .highlight {
-	 animation: inputHighlighter 0.3s ease;
-}
- @media screen and (max-width: 767px) and (min-width: 576px) {
-	 #foo #myModal {
-		 margin-left: 20%;
-		 margin-right: 20%;
-	}
-	 #foo #forgot-password {
-		 margin-left: 20%;
-		 margin-right: 20%;
-	}
-}
- @media screen and (min-width: 768px) {
-	 #foo #myModal .modal-dialog {
-		 width: 500px;
-	}
-	 #foo #forgot-password .modal-dialog {
-		 width: 500px;
-	}
-	 #foo .modal-body {
-		 padding-left: 50px;
-		 padding-right: 50px;
-	}
-}
+ 
 .carousel .carousel-item {
-    height: 500px; }
+	height: 500px; 
+}
 .carousel .carousel-item img {
-	  position: absolute;
-	  min-height: 500px;
-	}
-	.carousel-caption {
-		font-size: x-large;
-		top: 50%;
-		transform: translateY(-50%);
-		bottom: initial;}
-		#carouselButton {
-			right: 0px;
-			position: absolute;
-			bottom: 0px; }
-
-@media (max-width: 767px) {
-	#loginModal label { text-align:center }
-	#loginModal input::placeholder { text-align:center }
-			}			
-
+	position: absolute;
+	min-height: 500px;
+}
+.carousel-caption {
+	font-size: x-large;
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
+#carouselButton {
+	right: 0px;
+	position: absolute;
+	bottom: 0px; 
+}
+		
 /*star rating css*/
 .rate {
     float: left;
@@ -280,3 +148,33 @@
 	 border-bottom-left-radius: 0;
 }
  /*end of timeline*/
+ #paintingbg{
+	 background-image: url('../img/paintingbg.jpg');
+     /*background-attachment: fixed;*/
+     background-size: cover;
+	 z-index: -1;
+	width: 100%;
+	height:auto;
+	margin: 0px ;
+	padding: 0px;
+ }
+ img[class$="paint1"]{
+	border:6px groove #720273;
+	width: 225px;
+	 height: 151px;
+	 margin:auto;
+}
+img[class$="paint2"]{
+	border:6px groove #720273;
+	width: 151px;
+	 height: 225px;
+	 margin:auto;
+}
+#paint-title{
+	color:white;
+	padding:10px;
+}
+/*<img style="border:5px groove gold;" 
+src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" 
+alt="Photo of Milford Sound in New Zealand" />
+*/
