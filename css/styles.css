@@ -159,13 +159,37 @@
 	padding: 0px;
  }
  img[class$="paint1"]{
-	border:6px groove #720273;
+	border:6px groove #8b4513;
+	width: 225px;
+	 height: 151px;
+	 margin:auto;
+}
+img[class$="paint3"]{
+	border:6px groove #cd8500;
+	width: 225px;
+	 height: 151px;
+	 margin:auto;
+}
+img[class$="paint5"]{
+	border:6px groove #a0522d;
 	width: 225px;
 	 height: 151px;
 	 margin:auto;
 }
 img[class$="paint2"]{
-	border:6px groove #720273;
+	border:6px groove #ffa54f;
+	width: 151px;
+	 height: 225px;
+	 margin:auto;
+}
+img[class$="paint4"]{
+	border:6px groove #8b5a2b;
+	width: 151px;
+	 height: 225px;
+	 margin:auto;
+}
+img[class$="paint6"]{
+	border:6px groove gold;
 	width: 151px;
 	 height: 225px;
 	 margin:auto;
