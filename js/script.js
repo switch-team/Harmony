@@ -50,4 +50,6 @@ $(document).ready(function(){
     })(jQuery);
     $("#Family-Container").randomize();
     //End Family Randomizing 
+
+    lightbox.init();
 });
