@@ -40,7 +40,7 @@
 	height: 500px; 
 }
 .carousel .carousel-item img {
-	position: absolute;
+
 	min-height: 500px;
 }
 .carousel-caption {
