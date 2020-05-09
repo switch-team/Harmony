@@ -24,8 +24,13 @@
 	border: none;
 }
 
+.jumbotron {
+	background-color: #44344F;
+	color: floralwhite;
+}
+
 .footer {
-	background-color: #9ea7a8;
+	background-color: #B1B7D1;
 	padding: 10px 0px;
 	color: floralwhite;
 	  
@@ -35,7 +40,7 @@
 	height: 500px; 
 }
 .carousel .carousel-item img {
-	position: absolute;
+
 	min-height: 500px;
 }
 .carousel-caption {
@@ -223,8 +228,4 @@ img[class$="paint6"]{
 	color:white;
 	padding:10px;
 }
-/*<img style="border:5px groove gold;" 
-src="//www.html.am/images/image-codes/milford_sound_t.jpg" width="225" height="151" 
-alt="Photo of Milford Sound in New Zealand" />
-*/
 
